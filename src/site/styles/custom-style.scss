@@ -1,4 +1,10 @@
 body {
+    background-color: #111111 !important; 
+    color: #eeeeee !important; 
+}
+.cm-s-obsidian, .markdown-preview-view {
+    background-color: #111111 !important;
+}
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
@@ -10,4 +16,4 @@ body {
     //  h1 {
     //   color: #eeeeee !important;
     //  }
-}
+
