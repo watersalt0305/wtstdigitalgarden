@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/人物/Starsis/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/人物/Starsis/"}
 ---
 
 ![123456.png](/img/user/123456.png)
