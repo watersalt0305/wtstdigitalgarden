@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Hello,world!/","tags":["gardenEntry"],"dgShowLocalGraph":true}
+{"dg-publish":true,"permalink":"/Hello,world!/","tags":["gardenEntry"]}
 ---
 
 你好
