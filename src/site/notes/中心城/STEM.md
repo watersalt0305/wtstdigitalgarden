@@ -13,3 +13,4 @@
 [[人物/A\|A]]
 [[人物/Urire\|Urire]]
 
+![stem.png](/img/user/stem.png)
