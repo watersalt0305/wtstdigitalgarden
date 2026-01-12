@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/中心城/STEM/"}
 ---
 
-![stem.png|left| 123](/img/user/stem.png)**STEM** /策略技术评估部 
+![stem.png|left| 123](/img/user/stem.png)/策略技术评估部 
 /**S**trategic **T**echnology & **E**valuation **M**inistry
 
 
