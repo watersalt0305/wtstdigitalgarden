@@ -1,9 +1,19 @@
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
+
 body {
-    background-color: #111111 !important; 
-    color: #eeeeee !important; 
-}
-.cm-s-obsidian, .markdown-preview-view {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
     background-color: #111111 !important;
+    color: #eeeeee !important;
+}
+
+.cm-s-obsidian, .markdown-preview-view {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
+    background-color: #111111 !important;
+    color: #eeeeee !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
 }
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
