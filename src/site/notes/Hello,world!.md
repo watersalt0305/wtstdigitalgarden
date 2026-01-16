@@ -4,7 +4,7 @@
 
 ## Welcome to PLANT 
 > [!info] 🌐关于PLANT
-**公共生活与技术行政网 (Public Life & Administration Network of Technology)** 是中心城（*Astera*）及其附属区域的唯一法定信息中枢。我们致力于通过碎片科技与高效行政，构建完美的人类（及亚人）生态系统。
+**公共生活与技术行政网 (Public Life & Administration Network of Technology)** 是中心城（*Astera*）及其附属区域的唯一法定信息中枢。
 在此，您可以检索到所有 **合法注册** 的信息。
 
 
@@ -34,13 +34,13 @@
 ###  II. 地理区划 (Geographical Divisions)
 *行政管辖区与周边环境概览。*
 
-*   **[[Astera\|Astera]] (中心城 / Central Sector)**
+*   **[[Astera\|Astera]] (中心城 )**
     *   *核心行政与科研区，位于星形湖中央岛屿。*
-*   **[[Foliera\|Foliera]] (居民区/ Residential Sector)**
+*   **[[Foliera\|Foliera]] (居民区)**
     *   *主要居住区与生活功能区，环绕湖泊分布。*
-*   **[[Altera\|Altera]] (自由区 / Autonomous Sector)**
+*   **[[Altera\|Altera]] (自由区 )**
     *   *特殊自治区，允许非标准化的社会形态存在。*
-*   **[[Sylvara\|Sylvara]] (界外森林 / Non-Jurisdictional Zone)**
+*   **[[Sylvara\|Sylvara]] (界外森林 )**
     *   *城市边缘的未开发森林地带，包含原始生态系统。*
 
 ---
