@@ -20,11 +20,11 @@
 ### I. 行政与科研架构 (Organizational Structure)
 *维持社会运转的核心支柱。*
 
-*   **[[中心城/CROWN\|CROWN]] **
+*   **[[中心城/CROWN\|CROWN]]**
     *   *最高行政管理机构，负责区域统筹与法规制定。*
 *   **[[中心城/STEM\|STEM]]**
     *   *战略决策与技术支持中心。*
-*   **[[中心城/SEED\|SEED]] **
+*   **[[中心城/SEED\|SEED]]**
     *   *能源开发与植物学研究机构。*
 *   **[[中心城/ZEAL\|ZEAL]]**
     *   *前沿生命科学项目与特殊应用研究。*
@@ -45,7 +45,7 @@
 
 ---
 
-### 👥 III. 人员档案 (Personnel Registry)
+### III. 人员档案 (Personnel Registry)
 *按当前登记状态分类。*
 
 > [!NOTE] 提示
@@ -53,12 +53,19 @@
 
 ---
 
-### 📐 IV. 科学与历史 (Science & History)
+###  IV. 科学与历史 (Science & History)
 
 ---
 
 > [!TIP] 检索帮助
-> 如需查询特定 **碎片 (Shard)** 属性或 **Ex.序列** 参数，请访问 [[Shard_Database\|Shard_Database]] 子页面。
+> 如需查询特定 **碎片 (Shard)** 属性请访问 [[Shard_Database\|Shard_Database]] 子页面。
+
+
+
+
+
+
+
 
 *© CROWN Administration. All rights reserved.*
 
