@@ -24,9 +24,9 @@
 
 > [!abstract] 区域
 > - [[Astera\|Astera]] - 中心城
-> - [[Folium\|Folium]] - 居民区
-> - [[Altera\|Altera]] - 自由区
-> - [[Sylvera\|Sylvera]] - 界外森林
+> - [[区域概览/Folium•居民区\|Folium•居民区]] - 居民区
+> - [[区域概览/Altera•自由区\|Altera•自由区]] - 自由区
+> - [[区域概览/Sylvera•界外森林\|Sylvera•界外森林]] - 界外森林
 
 > [!abstract] 科学
 > - [[科学索引/碎片科学\|碎片科学]] - *推荐阅读*
@@ -39,5 +39,5 @@
 ---
 
 > [!info] 网站信息
-> 版本 3.2.1 | 技术支持：[[科学家档案/CielCa\|CielCa]] · [[Crovet系统\|Crovet]]
+> 版本 3.2.1 | 技术支持：[[科学家档案/CielCa•希鸥卡\|CielCa•希鸥卡]] · [[Crovet系统\|Crovet]]
 
