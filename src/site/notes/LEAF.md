@@ -4,7 +4,7 @@
 
 # LEAF | 碎片辅助框架
 
-**Life-Enhancement Auxiliary Framework**
+**Localized Extraction & Application Framework**
 
 > [!info] 设备信息
 > **开发机构**：[[机构概览/STEM\|STEM]]
