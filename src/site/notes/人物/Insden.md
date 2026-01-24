@@ -1,9 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/人物/Insden/"}
+{"dg-publish":true,"permalink":"/人物/Insden/","tags":["公开档案","STEM科学家"]}
 ---
 
----
-tags: [STEM科学家, 公开档案]
+
 ---
 
 # Insden | 因斯灯儿
