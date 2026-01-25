@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/机构概览/STEM/"}
+{"dg-publish":true,"permalink":"/机构概览/STEM/","tags":["机构"]}
 ---
 
 
@@ -36,7 +36,7 @@
 ## 设施概览
 
 > [!example] STEM 研究园区
-> 位于 [[中心城\|中心城]] 核心区域，包含多栋研究建筑及地下设施。
+> 位于 [[区域概览/Astera•中心城\|Astera•中心城]] 核心区域，包含多栋研究建筑及地下设施。
 > 
 > - **Tower A** - 行政主楼
 > - **Lab-W / Lab-E** - 研发楼
