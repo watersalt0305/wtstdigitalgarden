@@ -9,8 +9,8 @@
   --bg-card: #f8f9f6;
   --bg-sidebar: #f4f5f0;
   --text-primary: #1a1a1a;
-  --text-secondary: #4a4a4a;
-  --text-muted: #8a8a8a;
+  --text-secondary: #333333;
+  --text-muted: #777777;
   --accent: #4a7a5a;
   --accent-hover: #3a6a4a;
   --border: #d8ddd8;
@@ -98,8 +98,9 @@ blockquote p {
   letter-spacing: 0.02em;
   color: var(--text-primary) !important;
 }
-.callout-title-inner {
-  font-size: 0 !important;
+/* callout图标隐藏但保留文字 */
+.callout-title .callout-icon {
+  display: none !important;
 }
 table {
   border-collapse: collapse;
