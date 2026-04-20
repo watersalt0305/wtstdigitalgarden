@@ -1,34 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap');
 /* ========================================
    PLANT · 公共生活与技术行政网
-   抹茶绿行政主题
+   白底绿线行政主题
    技术支持：CielCa·希鸥卡 · Crovet
    ======================================== */
-
-/* ---------- 色板变量 ---------- */
 :root {
-  --bg-page: #e8ead4;
-  --bg-card: #f6f7f0;
-  --bg-sidebar: #dfe1cc;
-  --text-primary: #2a352a;
-  --text-secondary: #4a584a;
-  --text-muted: #7a8a7a;
-  --accent: #5a6a4a;
-  --accent-hover: #4a5a3a;
-  --border: #cdd0ba;
-  --border-light: #d8dac4;
-  --line: #c4c7b0;
-  --tag-bg: rgba(90, 106, 74, 0.12);
-  --tag-border: rgba(90, 106, 74, 0.25);
-  --selection: rgba(90, 106, 74, 0.2);
-  --callout-bg: rgba(90, 106, 74, 0.06);
-  --table-header: #d8dac6;
-  --table-hover: rgba(90, 106, 74, 0.05);
-  --code-color: #5a6a4a;
-  --code-bg: rgba(90, 106, 74, 0.08);
+  --bg-page: #ffffff;
+  --bg-card: #f8f9f6;
+  --bg-sidebar: #f4f5f0;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #8a8a8a;
+  --accent: #4a7a5a;
+  --accent-hover: #3a6a4a;
+  --border: #d8ddd8;
+  --border-light: #e8ece8;
+  --line: #c8d0c8;
+  --tag-bg: rgba(74, 122, 90, 0.08);
+  --tag-border: rgba(74, 122, 90, 0.2);
+  --selection: rgba(74, 122, 90, 0.15);
+  --callout-bg: #f6f8f6;
+  --table-header: #f0f3f0;
+  --table-hover: rgba(74, 122, 90, 0.04);
+  --code-color: #3a6a4a;
+  --code-bg: rgba(74, 122, 90, 0.06);
 }
-
-/* ---------- 基础字体 ---------- */
 body,
 p, span, div,
 h1, h2, h3, h4, h5, h6,
@@ -38,38 +34,32 @@ table, td, th,
 a, strong, em {
   font-family: "Inter", "Noto Sans SC", -apple-system, sans-serif !important;
 }
-
-/* ---------- 全局背景 ---------- */
 body {
   background-color: var(--bg-page) !important;
   color: var(--text-primary) !important;
   line-height: 1.75;
   letter-spacing: 0.01em;
 }
-
-/* ---------- 标题系统 ---------- */
 h1 {
-  color: #1e2a1e !important;
+  color: #1a1a1a !important;
   font-weight: 700;
   letter-spacing: 0.03em;
   border-bottom: 1px solid var(--line);
   padding-bottom: 8px;
 }
 h2 {
-  color: #2a3a2a !important;
+  color: #2a2a2a !important;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
 h3 {
-  color: #3a4a3a !important;
+  color: #3a3a3a !important;
   font-weight: 600;
 }
 h4, h5, h6 {
-  color: #4a5a4a !important;
+  color: #5a5a5a !important;
   font-weight: 500;
 }
-
-/* ---------- 链接 ---------- */
 a {
   color: var(--accent) !important;
   text-decoration: none;
@@ -83,14 +73,12 @@ a:hover {
 .internal-link {
   color: var(--accent) !important;
 }
-
-/* ---------- 引用块 ---------- */
 blockquote {
   background: var(--callout-bg) !important;
   border-left: 3px solid var(--accent) !important;
   margin: 1.5em 0;
   padding: 12px 20px;
-  border-radius: 2px;
+  border-radius: 0;
   font-style: normal;
 }
 blockquote:before {
@@ -100,8 +88,6 @@ blockquote p {
   display: block;
   color: var(--text-secondary);
 }
-
-/* ---------- Callout / 信息框 ---------- */
 .callout {
   background: var(--bg-card) !important;
   border: 1px solid var(--border) !important;
@@ -112,12 +98,9 @@ blockquote p {
   letter-spacing: 0.02em;
   color: var(--text-primary) !important;
 }
-/* 隐藏 callout 类型标识文字（如 Quote） */
 .callout-title-inner {
   font-size: 0 !important;
 }
-
-/* ---------- 表格 ---------- */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -138,14 +121,9 @@ td {
   border-bottom: 1px solid var(--border-light) !important;
   color: var(--text-primary);
 }
-tr:nth-child(even) td {
-  background: rgba(90, 106, 74, 0.03);
-}
 tr:hover td {
   background: var(--table-hover);
 }
-
-/* ---------- 代码 ---------- */
 p > code, li > code {
   color: var(--code-color) !important;
   background-color: var(--code-bg) !important;
@@ -153,22 +131,16 @@ p > code, li > code {
   border-radius: 3px;
   font-size: 0.9em;
 }
-
-/* ---------- 侧边栏 / 文件树 ---------- */
 .filetree-sidebar {
   background: var(--bg-sidebar) !important;
   border-right: 1px solid var(--border) !important;
 }
-
-/* ---------- 内容区域 ---------- */
 .content {
   font-size: 15px;
   max-width: 760px;
 }
-
-/* ---------- 导航栏 ---------- */
 .navbar {
-  background: var(--bg-sidebar) !important;
+  background: var(--bg-page) !important;
   border-bottom: 1px solid var(--border) !important;
 }
 .navbar .site-name {
@@ -176,8 +148,6 @@ p > code, li > code {
   letter-spacing: 0.05em;
   color: var(--text-primary) !important;
 }
-
-/* ---------- 反向链接 ---------- */
 .backlinks {
   border-top: 1px solid var(--line);
   margin-top: 40px;
@@ -189,14 +159,10 @@ p > code, li > code {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-
-/* ---------- 图谱 ---------- */
 .graph-view {
-  --graph-main: #5a6a4a;
-  --graph-muted: #c4c7b0;
+  --graph-main: #4a7a5a;
+  --graph-muted: #d8ddd8;
 }
-
-/* ---------- 滚动条 ---------- */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -210,13 +176,9 @@ p > code, li > code {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent);
 }
-
-/* ---------- 选中文字 ---------- */
 ::selection {
   background: var(--selection);
 }
-
-/* ---------- 标签 ---------- */
 .tag {
   background: var(--tag-bg) !important;
   color: var(--accent) !important;
@@ -225,15 +187,11 @@ p > code, li > code {
   padding: 1px 8px;
   font-size: 0.85em;
 }
-
-/* ---------- 分隔线 ---------- */
 hr {
   border: none;
   border-top: 1px solid var(--line);
   margin: 2em 0;
 }
-
-/* ---------- depth indicator ---------- */
 .depth-indicator {
   color: var(--text-muted) !important;
   font-size: 0.8em;
