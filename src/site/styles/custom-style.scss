@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap');
-
 /* ========================================
    PLANT · 公共生活与技术行政网
-   CROWN 行政风格主题
+   抹茶绿行政主题
    技术支持：CielCa·希鸥卡 · Crovet
    ======================================== */
+
+/* ---------- 色板变量 ---------- */
+:root {
+  --bg-page: #e8ead4;
+  --bg-card: #f6f7f0;
+  --bg-sidebar: #dfe1cc;
+  --text-primary: #2a352a;
+  --text-secondary: #4a584a;
+  --text-muted: #7a8a7a;
+  --accent: #5a6a4a;
+  --accent-hover: #4a5a3a;
+  --border: #cdd0ba;
+  --border-light: #d8dac4;
+  --line: #c4c7b0;
+  --tag-bg: rgba(90, 106, 74, 0.12);
+  --tag-border: rgba(90, 106, 74, 0.25);
+  --selection: rgba(90, 106, 74, 0.2);
+  --callout-bg: rgba(90, 106, 74, 0.06);
+  --table-header: #d8dac6;
+  --table-hover: rgba(90, 106, 74, 0.05);
+  --code-color: #5a6a4a;
+  --code-bg: rgba(90, 106, 74, 0.08);
+}
 
 /* ---------- 基础字体 ---------- */
 body,
@@ -17,100 +39,82 @@ a, strong, em {
   font-family: "Inter", "Noto Sans SC", -apple-system, sans-serif !important;
 }
 
-/* ---------- 全局背景与色彩 ---------- */
-:root {
-  --background-primary: #0c0f14;
-  --background-secondary: #12161e;
-  --text-normal: #c8ced8;
-  --text-muted: #6b7a8d;
-  --text-accent: #8aacc8;
-  --interactive-accent: #5a7a96;
-  --crown-gold: #b8a577;
-  --crown-border: #1e2430;
-  --crown-line: #2a3142;
-}
-
+/* ---------- 全局背景 ---------- */
 body {
-  background-color: var(--background-primary) !important;
-  color: var(--text-normal) !important;
+  background-color: var(--bg-page) !important;
+  color: var(--text-primary) !important;
   line-height: 1.75;
   letter-spacing: 0.01em;
 }
 
 /* ---------- 标题系统 ---------- */
-/* 统一冷色调，层级通过大小和粗细区分 */
 h1 {
-  color: #e8ecf2 !important;
+  color: #1e2a1e !important;
   font-weight: 700;
   letter-spacing: 0.03em;
-  border-bottom: 1px solid var(--crown-line);
+  border-bottom: 1px solid var(--line);
   padding-bottom: 8px;
 }
-
 h2 {
-  color: #c0c8d4 !important;
+  color: #2a3a2a !important;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
-
 h3 {
-  color: #a0aab8 !important;
+  color: #3a4a3a !important;
   font-weight: 600;
 }
-
 h4, h5, h6 {
-  color: #8a94a4 !important;
+  color: #4a5a4a !important;
   font-weight: 500;
 }
 
 /* ---------- 链接 ---------- */
 a {
-  color: var(--text-accent) !important;
+  color: var(--accent) !important;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s, color 0.2s;
 }
-
 a:hover {
-  color: #a8c8e0 !important;
-  border-bottom-color: #a8c8e0;
+  color: var(--accent-hover) !important;
+  border-bottom-color: var(--accent-hover);
 }
-
-/* 内部链接（wiki links） */
 .internal-link {
-  color: var(--text-accent) !important;
+  color: var(--accent) !important;
 }
 
 /* ---------- 引用块 ---------- */
 blockquote {
-  background: rgba(255, 255, 255, 0.03) !important;
-  border-left: 3px solid var(--crown-gold) !important;
+  background: var(--callout-bg) !important;
+  border-left: 3px solid var(--accent) !important;
   margin: 1.5em 0;
   padding: 12px 20px;
-  border-radius: 0;
+  border-radius: 2px;
   font-style: normal;
 }
-
 blockquote:before {
   content: none !important;
 }
-
 blockquote p {
   display: block;
-  color: #a0a8b4;
+  color: var(--text-secondary);
 }
 
 /* ---------- Callout / 信息框 ---------- */
 .callout {
-  --callout-color: 90, 122, 150 !important;
-  background: rgba(18, 22, 30, 0.8) !important;
-  border: 1px solid var(--crown-line) !important;
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
   border-radius: 4px;
 }
-
 .callout-title {
   font-weight: 600;
   letter-spacing: 0.02em;
+  color: var(--text-primary) !important;
+}
+/* 隐藏 callout 类型标识文字（如 Quote） */
+.callout-title-inner {
+  font-size: 0 !important;
 }
 
 /* ---------- 表格 ---------- */
@@ -119,32 +123,32 @@ table {
   width: 100%;
   font-size: 0.9em;
 }
-
 th {
-  background: var(--background-secondary) !important;
-  color: #a0aab8 !important;
+  background: var(--table-header) !important;
+  color: var(--text-primary) !important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 0.06em;
   padding: 10px 14px;
-  border-bottom: 2px solid var(--crown-line) !important;
+  border-bottom: 2px solid var(--line) !important;
 }
-
 td {
   padding: 8px 14px;
-  border-bottom: 1px solid var(--crown-line) !important;
-  color: var(--text-normal);
+  border-bottom: 1px solid var(--border-light) !important;
+  color: var(--text-primary);
 }
-
+tr:nth-child(even) td {
+  background: rgba(90, 106, 74, 0.03);
+}
 tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--table-hover);
 }
 
 /* ---------- 代码 ---------- */
 p > code, li > code {
-  color: #b8a577 !important;
-  background-color: rgba(184, 165, 119, 0.1) !important;
+  color: var(--code-color) !important;
+  background-color: var(--code-bg) !important;
   padding: 1px 5px;
   border-radius: 3px;
   font-size: 0.9em;
@@ -152,8 +156,8 @@ p > code, li > code {
 
 /* ---------- 侧边栏 / 文件树 ---------- */
 .filetree-sidebar {
-  background: var(--background-secondary) !important;
-  border-right: 1px solid var(--crown-line) !important;
+  background: var(--bg-sidebar) !important;
+  border-right: 1px solid var(--border) !important;
 }
 
 /* ---------- 内容区域 ---------- */
@@ -164,23 +168,21 @@ p > code, li > code {
 
 /* ---------- 导航栏 ---------- */
 .navbar {
-  background: var(--background-primary) !important;
-  border-bottom: 1px solid var(--crown-line) !important;
+  background: var(--bg-sidebar) !important;
+  border-bottom: 1px solid var(--border) !important;
 }
-
 .navbar .site-name {
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #e0e4ea !important;
+  color: var(--text-primary) !important;
 }
 
 /* ---------- 反向链接 ---------- */
 .backlinks {
-  border-top: 1px solid var(--crown-line);
+  border-top: 1px solid var(--line);
   margin-top: 40px;
   padding-top: 16px;
 }
-
 .backlinks-title {
   color: var(--text-muted) !important;
   font-size: 0.85em;
@@ -190,38 +192,35 @@ p > code, li > code {
 
 /* ---------- 图谱 ---------- */
 .graph-view {
-  --graph-main: #8aacc8;
-  --graph-muted: #2a3142;
+  --graph-main: #5a6a4a;
+  --graph-muted: #c4c7b0;
 }
 
 /* ---------- 滚动条 ---------- */
 ::-webkit-scrollbar {
   width: 6px;
 }
-
 ::-webkit-scrollbar-track {
-  background: var(--background-primary);
+  background: var(--bg-page);
 }
-
 ::-webkit-scrollbar-thumb {
-  background: var(--crown-line);
+  background: var(--line);
   border-radius: 3px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a4458;
+  background: var(--accent);
 }
 
 /* ---------- 选中文字 ---------- */
 ::selection {
-  background: rgba(138, 172, 200, 0.25);
+  background: var(--selection);
 }
 
 /* ---------- 标签 ---------- */
 .tag {
-  background: rgba(90, 122, 150, 0.15) !important;
-  color: var(--text-accent) !important;
-  border: 1px solid rgba(90, 122, 150, 0.25);
+  background: var(--tag-bg) !important;
+  color: var(--accent) !important;
+  border: 1px solid var(--tag-border);
   border-radius: 3px;
   padding: 1px 8px;
   font-size: 0.85em;
@@ -230,7 +229,7 @@ p > code, li > code {
 /* ---------- 分隔线 ---------- */
 hr {
   border: none;
-  border-top: 1px solid var(--crown-line);
+  border-top: 1px solid var(--line);
   margin: 2em 0;
 }
 
