@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/科学家档案/Aa•A/","tags":["STEM科学家","公开档案"]}
+{"dg-publish":true,"permalink":"/科学家档案/Aa•A/","tags":["STEM科学家","公开档案"],"dg-note-properties":{"tags":["STEM科学家","公开档案"]}}
 ---
 
 
